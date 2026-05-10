@@ -1,4 +1,4 @@
--- ~/.config/nvim/lua/plugins/snacks.lua
+-- Snacks.nvim — file picker & explorer config
 return {
   "folke/snacks.nvim",
   opts = {
@@ -9,21 +9,25 @@ return {
             "node_modules",
             ".env",
             "*.yaml",
+            ".dev.vars",
           },
         },
         files = {
           include = {
             ".env",
             "*.yaml",
+            ".dev.vars",
           },
         },
         grep = {
           include = {
             ".env",
             "*.yaml",
+            ".dev.vars",
           },
         },
       },
     },
   },
 }
+
