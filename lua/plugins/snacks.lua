@@ -7,21 +7,21 @@ return {
         explorer = {
           include = {
             "node_modules",
-            ".env",
+            ".env*",
             "*.yaml",
             ".dev.vars",
           },
         },
         files = {
           include = {
-            ".env",
+            ".env*",
             "*.yaml",
             ".dev.vars",
           },
         },
         grep = {
           include = {
-            ".env",
+            ".env*",
             "*.yaml",
             ".dev.vars",
           },
@@ -30,4 +30,3 @@ return {
     },
   },
 }
-
