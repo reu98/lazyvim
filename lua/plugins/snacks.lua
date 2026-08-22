@@ -10,6 +10,7 @@ return {
             ".env*",
             "*.yaml",
             ".dev.vars",
+            "specs",
           },
         },
         files = {
@@ -24,6 +25,7 @@ return {
             ".env*",
             "*.yaml",
             ".dev.vars",
+            "specs",
           },
         },
       },
