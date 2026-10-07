@@ -56,3 +56,6 @@ if vim.g.neovide then
   vim.o.guifont = "FiraCode Nerd Font Mono:h14"
   vim.g.neovide_transparency = 0.92
 end
+
+vim.g.loaded_perl_provider = 0
+vim.g.python3_host_prog = vim.fn.expand("~/.local/share/nvim/py-provider/bin/python")
